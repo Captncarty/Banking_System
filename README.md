@@ -9,7 +9,7 @@
 
 ## Description
 
-This repository contains the files to simulate a basic **Bank Management System** with its respective data collection and arrangement to setup and manage Customers Accounts. It uses seperated functions which are connected to various financial operations, It is reasonably short and easy to comprehend.
+This repository contains the files to simulate a basic **Bank Management System** with its respective data collection and arrangement to setup and manage **Customers Accounts**. It uses seperated functions which are connected to various financial operations, It is reasonably short and easy to comprehend.
 
 This Banking System is a mini project written in C programming language that gives the user a banking interface well laced with critical functionalities enabling financial operations
 
