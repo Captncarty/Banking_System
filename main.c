@@ -7,7 +7,7 @@
 
 int main()
 {
-	char pass[10],password[10]="codewithc";
+	char pass[10],password[8]="Welcome";
 	int i=0;
 
 	printf("\n\n\t\tEnter the password to login:");
