@@ -24,7 +24,7 @@ void transact(void)
 			{
 				printf("\a\a\a\n\nYOU CANNOT DEPOSIT OR WITHDRAW CASH IN FIXED ACCOUNTS!!!!!");
 				fordelay(1000000000);
-				system("cls");
+				system("clear");
 				menu();
 			}
 			printf("\n\nDo you want to\n1.Deposit\n2.Withdraw?\n\nEnter your choice(1 for deposit and 2 for withdraw):");
@@ -42,8 +42,8 @@ void transact(void)
 			else
 			{
 				printf("Enter the amount you want to withdraw:$ ");
-				scanf("%f",&transaction.amt);
-				add.amt-=transaction.amt;
+				scanf("%f", &transaction.amt);
+				add.amt -= transaction.amt;
 				fprintf(newrec,"%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d\n",
 						add.acc_no,add.name,add.dob.month,add.dob.day,add.dob.year,add.age,add.address,
 						add.citizenship,add.phone,add.acc_type,add.amt,add.deposit.month,add.deposit.day,add.deposit.year);
@@ -67,7 +67,7 @@ void transact(void)
 transact_invalid:
 		printf("\n\n\nEnter 0 to try again,1 to return to main menu and 2 to exit:");
 		scanf("%d",&main_exit);
-		system("cls");
+		system("clear");
 
 		if (main_exit==0)
 			transact();
@@ -85,10 +85,11 @@ transact_invalid:
 	{
 		printf("\nEnter 1 to go to the main menu and 0 to exit:");
 		scanf("%d",&main_exit);
-		system("cls");
+		system("clear");
 		if (main_exit==1)
 			menu();
 		else
 			close();
 	}
 }
+

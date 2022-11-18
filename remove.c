@@ -53,7 +53,7 @@ erase_invalid:
 	{
 		printf("\nEnter 1 to go to the main menu and 0 to exit:");
 		scanf("%d",&main_exit);
-		system("cls");
+		system("clear");
 
 		if (main_exit==1)
 			menu();

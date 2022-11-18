@@ -49,7 +49,7 @@ struct {
 /*==================*/
 float interest(float t,float amount,int rate);
 void fordelay(int j);
-void new_acc();
+void new_acc(void);
 void view_list();
 void edit(void);
 void transact(void);

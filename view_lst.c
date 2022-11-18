@@ -12,7 +12,7 @@ void view_list()
 	view=fopen("record.dat","r");
 	int test=0;
     
-	system("cls");
+	system("clear");
     printf("\nACC. NO.\tNAME\t\t\tADDRESS\t\t\tPHONE\n");
 
 	while(fscanf(view,"%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d",
@@ -24,16 +24,16 @@ void view_list()
 	}
 	
 	fclose(view);
-	if (test==0)
+	if (test == 0)
 	{
-		system("cls");
+		system("clear");
 		printf("\nNO RECORDS!!\n");
 	}
 
 view_list_invalid:
 	printf("\n\nEnter 1 to go to the main menu and 0 to exit:");
 	scanf("%d",&main_exit);
-	system("cls");
+	system("clear");
 	if (main_exit==1)
 		menu();
 	else if(main_exit==0)

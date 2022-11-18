@@ -31,7 +31,7 @@ void fordelay(int j)
 
 void close(void)
 {
-    printf("\n\n\n\nThis C Mini Project is developed by Code, Audited, debugged and made applicable in LINUX env by ME!");
+    printf("\n\n\n\nThis C Mini Project is developed by Code, Audited, debugged and made applicable in LINUX env by ME(Captn Carty)!\n");
 }
 
 

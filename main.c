@@ -10,7 +10,7 @@ int main()
 	char pass[10],password[8]="Welcome";
 	int i=0;
 
-	printf("\n\n\t\tEnter the password to login:");
+	printf("\n\n\t\tEnter the password to login: ");
 	scanf("%s",pass);
     
 	/*do
@@ -32,7 +32,7 @@ int main()
 			fordelay(100000000);
 			printf(".");
 		}
-			system("cls");
+			system("clear");
 		menu();
 	}
 	else
@@ -44,19 +44,19 @@ login_try:
 
 		if (main_exit==1)
 		{
-			system("cls");
+			system("clear");
 			main();
 		}
 		else if (main_exit==0)
 		{
-			system("cls");
+			system("clear");
 			close();
 		}
 		else
 		{
 			printf("\nInvalid!");
 			fordelay(1000000000);
-			system("cls");
+			system("clear");
 			goto login_try;
 		}
 	}
