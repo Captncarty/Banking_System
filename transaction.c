@@ -20,7 +20,7 @@ void transact(void)
 		if(add.acc_no==transaction.acc_no)
 		{
 			test=1;
-			if(strcmpi(add.acc_type,"fixed1")==0||strcmpi(add.acc_type,"fixed2")==0||strcmpi(add.acc_type,"fixed3")==0)
+			if(strcasecmp(add.acc_type,"fixed1")==0||strcasecmp(add.acc_type,"fixed2")==0||strcasecmp(add.acc_type,"fixed3")==0)
 			{
 				printf("\a\a\a\n\nYOU CANNOT DEPOSIT OR WITHDRAW CASH IN FIXED ACCOUNTS!!!!!");
 				fordelay(1000000000);

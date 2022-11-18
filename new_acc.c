@@ -14,7 +14,8 @@ void new_acc()
 	ptr=fopen("record.dat","a+");
 account_no:
 	system("cls");
-	printf("\t\t\t\xB2\xB2\xB2\ ADD RECORD  \xB2\xB2\xB2\xB2");
+	printf("\t\t\t\xB2\xB2\xB2\
+			ADD RECORD\xB2\xB2\xB2\xB2");
 	printf("\n\n\nEnter today's date(mm/dd/yyyy):");
 	scanf("%d/%d/%d",&add.deposit.month,&add.deposit.day,&add.deposit.year);
 	printf("\nEnter the account number:");
